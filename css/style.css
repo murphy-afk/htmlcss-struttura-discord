@@ -16,12 +16,13 @@
 .margin-auto {
   margin: 0 auto;
 }
+/* background colors */
 
 .bg-gold {
   background-color: darkgoldenrod;
 }
 
-.bg-light-blue {
+.bg-lightblue {
   background-color: lightblue;
 }
 
@@ -57,13 +58,60 @@
   background-color: aquamarine;
 }
 
+
+/* border */
+
+.border {
+  border: 1px dotted black;
+}
+
+/* width */
+
+.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-center-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content-center-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
 /**********************************
             SPECIFICS
 ***********************************/
 
 /* header */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;
+}
+
 .header-container {
   display: flex;
-
-
+  min-height: 40px;
+  width: 70%;
 }
+
+
+
