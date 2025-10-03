@@ -78,11 +78,16 @@
 /* border */
 
 .border {
-  border: 1px dotted black;
+  border: 1px dashed black;
 }
 
 .border-white {
-  border: 1px dotted white;
+  border: 1px dashed white;
+}
+
+.border-solid {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 /* width */
@@ -120,6 +125,13 @@
 }
 
 /* height */
+.height-50 {
+  height: 50px;
+}
+
+.height-60 {
+  height: 60px;
+}
 
 
 .height-300 {
@@ -166,12 +178,33 @@
   align-items: center;
 }
 
+.content-center-down {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.space-between {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-end {
+  align-items: flex-end;
+}
+
 /* margin */
 
 .margin-bottom-5 {
   margin-bottom: 5px;
 }
 
+
+/* padding  */
+
+.padding-5 {
+  padding: 5px;
+}
 
 /**********************************
             SPECIFICS
