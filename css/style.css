@@ -18,6 +18,10 @@
 }
 /* background colors */
 
+.bg-white {
+  background-color: white;
+}
+
 .bg-gold {
   background-color: darkgoldenrod;
 }
@@ -31,7 +35,7 @@
 }
 
 .bg-plum {
-  background-color: plum;
+  background-color: rgb(198, 105, 198);
 }
 
 .bg-royalblue {
@@ -42,7 +46,7 @@
   background-color: pink;
 }
 
-.bg-light-gray {
+.bg-lightgray {
   background-color: lightgray;
 }
 
@@ -71,8 +75,20 @@
   width: 25%;
 }
 
+.w-40 {
+  width: 40%;
+}
+
 .w-50 {
   width: 50%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-70 {
+  width: 70%;
 }
 
 /* height */
@@ -82,12 +98,16 @@
   height: 300px;
 }
 
-.height-500 {
+.height-400 {
   height: 500px;
 }
 
 .height-proportion-80 {
   height: 80%;
+}
+
+.height-proportion-100 {
+  height: 100%;
 }
 
 /* center content */
