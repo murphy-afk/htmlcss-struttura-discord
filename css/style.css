@@ -50,6 +50,10 @@
   background-color: lightgray;
 }
 
+.bg-green {
+  background-color: forestgreen;
+}
+
 .bg-salmon {
   background-color: salmon;
 }
@@ -91,6 +95,7 @@
   width: 70%;
 }
 
+
 /* height */
 
 
@@ -100,6 +105,10 @@
 
 .height-400 {
   height: 500px;
+}
+
+.height-600 {
+  height: 600px;
 }
 
 .height-proportion-80 {
